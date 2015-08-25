@@ -1,0 +1,24 @@
+{
+  "name": "programaEstagio",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Aplicativo para controlar o programa de estágio EngSolutions",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vmussak/programaEstagio"
+  },
+  "author": "Vinicius Mussak <vinicius.mussak@outlook.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/vmussak/programaEstagio/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.13.3",
+    "express-load": "~1.1.15",
+    "pg": "~4.4.1"
+  }
+}
